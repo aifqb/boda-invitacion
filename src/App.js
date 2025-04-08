@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/invitacion" element={<BodaInfo />} />
+        <Route path="/" element={<BodaInfo />} />
         {/* Redirecciona la ruta raíz a /invitacion */}
         <Route path="/" element={<Navigate to="/invitacion" replace />} />
         {/* Puedes añadir más rutas aquí si tu aplicación crece */}
