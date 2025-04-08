@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* Reemplaza con tu fuente */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); /* Fuente secundaria */
+
+.container {
+  font-family: 'Playfair Display', serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-family: 'Great Vibes', cursive; /* Reemplaza con tu fuente */
+  text-align: center;
+  color: #7b68ee;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.sectionHeading {
+  font-family: 'Great Vibes', cursive; /* Reemplaza con tu fuente */
+  color: #a52a2a;
+  font-size: 1.8em;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #555;
+}
+
+.paragraph {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 1.1em;
+}
+
+.italic {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-top: 20px;
+}
