@@ -1,17 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BodaInfo from './BodaInfo';
-// Puedes crear otros componentes para otras rutas si es necesario
 
 function App() {
   return (
-    <Router basename="/boda-invitacion"> {/* Importante para GitHub Pages */}
+    <Router basename="/boda-invitacion"> {/* ¡Añade esta línea! */}
       <Routes>
-        <Route path="/invitacion" element={<BodaInfo />} />
-        {/* Redirecciona la ruta raíz a /invitacion */}
-        <Route path="/" element={<Navigate to="/invitacion" replace />} />
-        {/* Puedes añadir más rutas aquí si tu aplicación crece */}
-        {/* <Route path="/otra-pagina" element={<OtroComponente />} /> */}
+        <Route path="/" element={<BodaInfo />} />
+        {/* Si tienes otras rutas, defínelas aquí */}
       </Routes>
     </Router>
   );
