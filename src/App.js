@@ -5,9 +5,9 @@ import BodaInfo from './BodaInfo';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/boda-invitacion"> {/* Importante para GitHub Pages */}
       <Routes>
-        <Route path="/" element={<BodaInfo />} />
+        <Route path="/invitacion" element={<BodaInfo />} />
         {/* Redirecciona la ruta raíz a /invitacion */}
         <Route path="/" element={<Navigate to="/invitacion" replace />} />
         {/* Puedes añadir más rutas aquí si tu aplicación crece */}
@@ -18,4 +18,3 @@ function App() {
 }
 
 export default App;
-
