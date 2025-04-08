@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/boda-invitacion/static/css/main.f721ed54.css",
+    "main.js": "/boda-invitacion/static/js/main.9c271244.js",
+    "index.html": "/boda-invitacion/index.html",
+    "main.f721ed54.css.map": "/boda-invitacion/static/css/main.f721ed54.css.map",
+    "main.9c271244.js.map": "/boda-invitacion/static/js/main.9c271244.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f721ed54.css",
+    "static/js/main.9c271244.js"
+  ]
+}
